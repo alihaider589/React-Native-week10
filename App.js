@@ -6,6 +6,7 @@ import Ihome from './Ihome';
 import Food from './foodfirst'
 import Foodmain from './foodmain'
 import Careemfirst from './careemfirst'
+import Ifeeds from './Ifeed'
 
 
  
@@ -13,7 +14,12 @@ import Careemfirst from './careemfirst'
 export default class App extends Component{
   render() {
     return (
-      <Careemfirst></Careemfirst>
+      
+      // <Food></Food>
+      <Ihome></Ihome>
+      // <Ilogin></Ilogin>
+    //  <Ifeeds></Ifeeds>
+    // <Foodmain></Foodmain>
     )}
     }
 

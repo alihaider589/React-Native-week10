@@ -51,8 +51,15 @@ export default class Ihome extends Component{
 <Text style={{marginTop:4,alignContent:'space-around',alignItems:'flex-end'}}>                                                  posts    followers   following </Text>
 
 <View style={{flexDirection:'row', justifyContent:"space-around", alignItems:"center"}}>
-<TouchableOpacity><Text style={{ width: WIDTH - 280, padding:3.5,marginTop:30,  marginLeft:180, borderRadius:5,  backgroundColor:'rgb(197, 30, 75)'}}>Promotions </Text></TouchableOpacity>
-<TouchableOpacity><Text style={{ width: WIDTH - 280, padding:5,  marginLeft:10, marginTop:30,   borderRadius:5,  backgroundColor:'rgb(197, 30, 75)'}}>Edit Profile  </Text></TouchableOpacity>
+<TouchableOpacity><Text style={{ width: WIDTH - 280, padding:5,marginTop:30,
+    marginLeft:180, borderRadius:5,borderWidth:1,fontSize:12,  backgroundColor:'rgb(255, 255, 255)'}}>Promotions </Text></TouchableOpacity>
+<TouchableOpacity>
+  <Text style={{ width: WIDTH - 280, padding:5
+    ,marginLeft:10, marginTop:30, fontSize:12,
+    borderWidth:1,  borderRadius:5,
+      backgroundColor:'rgb(255, 255, 255)'}}>
+      Edit Profile  </Text>
+      </TouchableOpacity>
 </View>
 </View>
 <View style={{marginLeft:5}}><Text>Profile Status</Text></View>
